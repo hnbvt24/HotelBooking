@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Practice JavaScript</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="normalize.css" />
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script src="javascript.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header class="main-header">
+    		<h1 class="name"><a href="#">Travel Worthy</a></h1>
+    	</header>
+
+		<div class="hotelInformation">
+			<div id="hotelName"></div>
+			<div id="roomRate"></div>
+			<div id="specialRate"></div>
+			<div id="offerEnds"></div>
+		</div>
+		<footer>
+			<div id="copyright"></div>
+    	</footer>
+	</div>
+	<script language="javascript" type="text/javascript">
+	var today = new Date();
+	var year = today.getFullYear();
+	var copyright = document.getElementById('copyright');
+	copyright.innerHTML = '&copy; ' + year + ' Travel Worthy';
+	</script>
+	<script>
+	$(document).ready(function() {
+	  function setHeight() {
+		windowHeight = $(window).innerHeight();
+		$('.hotelInformation').css('min-height', windowHeight);
+	  };
+	  setHeight();
+	  
+	  $(window).resize(function() {
+		setHeight();
+	  });
+	});
+	</script>
+</body>
+</html>
