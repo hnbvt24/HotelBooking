@@ -22,8 +22,8 @@ window.onload = function() {
 	specialRate = document.getElementById('specialRate'); 	// Write offer price
 
 	hotelName.textContent = hotel.name;						// Write hotel name
-	roomRate.textContent = '$' + hotel.roomRate.toFixed(2);	// Write room rate
-	specialRate.textContent = '$' + hotel.offerPrice();		// Write offer price
+	roomRate.textContent = 'Originial Price: $' + hotel.roomRate.toFixed(2);	// Write room rate
+	specialRate.textContent = 'Sale Price: $' + hotel.offerPrice();		// Write offer price
 	
 	// PART TWO: CALCULATE AND WRITE OUT THE EXPIRY DETAILS FOR THE OFFER
 	var expiryMsg; 	// Message display to users
@@ -57,7 +57,7 @@ window.onload = function() {
 	today = new Date();
 	// Put today's date in variable
 	elEnds = document.getElementById('offerEnds');	// Get the offerEnds element
-	elEnds.innerHTML = offerExpires(today);
+	elEnds.innerHTML = offerExpires(today).italics();
 	// Add the expiry message
 
 	// Finish the immediately invoked function expression

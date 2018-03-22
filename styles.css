@@ -37,6 +37,11 @@ header, footer {
 	padding: 20px 0;
 }
 
+hr {
+	background-color: #fff;
+	height: 0.2px;
+}
+
 h1 {
 	font-size: 1.2em;
 	margin: 0 auto;
@@ -68,7 +73,7 @@ button {
 }
 
 #wrapper {
-	background-image: url('hotel.jpeg');
+	background-image: url('img/hotel.jpeg');
 }
 
 #copyright {
@@ -78,10 +83,31 @@ button {
 }
 
 .hotelInformation {
-  background-color: #660000;
+  background-color: #ff6600;
   margin: 0 auto;
   padding: 10px 20px;
+  text-align: right;
   width: 100%;
+}
+
+.name{
+	font-family: 'Times New Roman', serif;
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+}
+
+.room {
+	font-size: .8em;
+}
+
+.discount {
+	margin: 20px 0;
+	font-size: 1.5em;
+}
+
+.offer {
+	font-size: .66em;
 }
 
 /* ================================= 
