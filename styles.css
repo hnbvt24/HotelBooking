@@ -52,24 +52,39 @@ h1, footer,
 	text-align: center;
 }
 
+h2 {
+	margin: 20px 0 5px 0;
+}
+
 p.headline, footer {
 	color: #b2b2b2;
 	font-size: .9em;
 }
 
-button {
+img {
+	width: 220px;
+	height: 132px;
+	margin: 10px;
+	text-align: center;
+}
+
+.btSubmit {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background: #4ebbb5;
+  background: #ff6600;
   font-size: 18px;
   text-align: center;
   font-style: normal;
   border-radius: 5px;
-  width: 100%;
-  border: 1px solid #4ebbb5;
+  width: 484px;
+  border: 1px solid #ff6600;
   border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
+}
+
+.btSubmit:hover {
+	background: #2d3945;
+	 border: 1px solid #2d3945;
 }
 
 #wrapper {
@@ -110,15 +125,25 @@ button {
 	font-size: .66em;
 }
 
+#hoteldata { 
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+	width: 484px;
+}
+.leftSide, .rightSide {
+	width:40%;
+	
+}
+
 /* ================================= 
   Media Queries
 ==================================== */
 
 @media (min-width: 768px) {
+	
 	.hotelInformation {
 		width: 350px;
-		position: relative;
-		left: 220px;
 	}
 	
 	#copyright {
@@ -128,8 +153,9 @@ button {
 }
 
 @media (min-width: 1080px) {
-	.hotelInformation {
-		position: relative;
-		left: 350px;
+	form {
+		width: 500px;
 	}
+	
+
 }
