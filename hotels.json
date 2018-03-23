@@ -1,0 +1,49 @@
+[{
+	"name": "Alexandria",
+	"image": "https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&h=350",
+	"roomRate": 240,
+	"discount": 15
+
+}, {
+	"name": "The Ruby Red",
+	"image": "https://images.pexels.com/photos/261169/pexels-photo-261169.jpeg?auto=compress&cs=tinysrgb&h=350",
+	"roomRate": 320,
+	"discount": 20
+
+}, {
+	"name": "California Coast",
+	"image": "https://images.pexels.com/photos/460537/pexels-photo-460537.jpeg?auto=compress&cs=tinysrgb&h=350",
+	"roomRate": 220,
+	"discount": 16
+
+}, {
+	"name": "Oceanic Escape",
+	"image": "https://images.pexels.com/photos/261108/pexels-photo-261108.jpeg?auto=compress&cs=tinysrgb&h=350",
+	"roomRate": 260,
+	"discount": 15
+
+}, {
+	"name": "Southern Countryside",
+	"image": "https://images.pexels.com/photos/53577/hotel-architectural-tourism-travel-53577.jpeg?auto=compress&cs=tinysrgb&h=350",
+	"roomRate": 300,
+	"discount": 20
+
+}, {
+	"name": "Bluebells Hotel",
+	"image": "https://images.pexels.com/photos/279813/pexels-photo-279813.jpeg?auto=compress&cs=tinysrgb&h=350",
+	"roomRate": 280,
+	"discount": 20
+
+}, {
+	"name": "Hilton Head",
+	"image": "https://images.pexels.com/photos/261101/pexels-photo-261101.jpeg?auto=compress&cs=tinysrgb&h=350",
+	"roomRate": 250,
+	"discount": 10
+
+}, {
+	"name": "Seaside Escape",
+	"image": "https://images.pexels.com/photos/297984/pexels-photo-297984.jpeg?auto=compress&cs=tinysrgb&h=350",
+	"roomRate": 270,
+	"discount": 16
+
+}]
